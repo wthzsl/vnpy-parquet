@@ -1,0 +1,29 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 日志和临时文件
+*.log
+*.tmp
+.DS_Store
+
+# 数据文件（可选，如果不想上传数据）
+data/
+*.parquet
+*.csv
+*.xlsx
+
+# 配置文件（如果有密码）
+*.json
+!vt_setting.json   # 如果你确定要上传配置文件，用 ! 排除规则
