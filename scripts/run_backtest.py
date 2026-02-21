@@ -95,7 +95,7 @@ if stats:
             print(f"{trade.datetime} {trade.symbol}.{trade.exchange} {trade.direction} {trade.volume}股 @ {trade.price}")
     else:
         print("\n无交易记录。")
-
+    """ 
     # 显示曲线（通过 backtesting_engine）
     try:
         if engine.backtesting_engine:
@@ -105,6 +105,7 @@ if stats:
             print("回测引擎未就绪，无法显示图表。")
     except Exception as e:
         print(f"无法显示曲线: {e}")
+    """
 else:
     print("⚠️ 未生成统计结果。")
 
